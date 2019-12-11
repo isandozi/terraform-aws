@@ -4,7 +4,7 @@ resource "aws_s3_bucket" "my_bucket" {
   region = var.region
 
   tags = {
-    Name        = "javahome-app-de"
+    Name        = "javahome-app-dev"
     Environment = terraform.workspace
   }
 }
